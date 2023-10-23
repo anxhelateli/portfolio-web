@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T20:28:40.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" version="22.0.6" etag="AAcqiKQwJg-cZXLwZgcW" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-23T20:41:23.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57" etag="KUZ9xL3SpFr5PVJgWpkI" version="22.0.6" type="github">
   <diagram name="Page-1" id="SbHMAceTXBNfmyk7gnIv">
-    <mxGraphModel>
+    <mxGraphModel dx="786" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nKkR5_k983iTj_bYRbfA-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="70" width="590" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="nKkR5_k983iTj_bYRbfA-2" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" vertex="1" parent="nKkR5_k983iTj_bYRbfA-1">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nKkR5_k983iTj_bYRbfA-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="nKkR5_k983iTj_bYRbfA-1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nKkR5_k983iTj_bYRbfA-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios.iBgFlat;strokeColor=#18211b;fillColor=#1f2923;" vertex="1" parent="nKkR5_k983iTj_bYRbfA-1">
+          <mxGeometry x="10" y="140" width="570" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nKkR5_k983iTj_bYRbfA-5" value="Home&amp;nbsp; &amp;nbsp;About Me&amp;nbsp; &amp;nbsp;Skills&amp;nbsp; &amp;nbsp;Projects&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp;Contact" style="whiteSpace=wrap;html=1;shadow=0;dashed=0;fontSize=10;align=left;fillColor=#FFFFFF;strokeColor=#FFFFFF;fontColor=#4D4D4D;" vertex="1" parent="nKkR5_k983iTj_bYRbfA-1">
+          <mxGeometry x="10" y="120" width="220" height="16.88" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
