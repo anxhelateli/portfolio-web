@@ -126,15 +126,15 @@
 
 ### Screenshots 
 
-![foto](./img/foto.png)
+![home](./img/home.png)
 
-![foto2](./img/foto2.png)
+![aboutme](./img/aboutme.png)
 
-![foto3](./img/foto3.png)
+![skills](./img/skills.png)
 
-![foto4](./img/foto4.png)
+![experience](./img/experience.png)
 
-![foto5](./img/foto5.png)
+![contact](./img/contact.png)
 
 ## Design Considerations
 
