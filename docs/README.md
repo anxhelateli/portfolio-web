@@ -127,9 +127,13 @@
 ### Screenshots 
 
 ![foto](./img/foto.png)
+
 ![foto2](./img/foto2.png)
+
 ![foto3](./img/foto3.png)
+
 ![foto4](./img/foto4.png)
+
 ![foto5](./img/foto5.png)
 
 ## Design Considerations
