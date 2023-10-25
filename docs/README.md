@@ -160,3 +160,5 @@
 - Be creative with the design, adding personal touches.
 - The description here is a basic representation, and they can customize it based on preferences.
 - This is a single-page application design; however, they can extend it based on project requirements.
+
+[def]: ./img/foto5.png
