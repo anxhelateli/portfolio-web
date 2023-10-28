@@ -135,6 +135,7 @@
 ![experience](./img/experience.png)
 
 ![contact](./img/contact.png)
+![logo](./img/logo.png)
 
 ## Design Considerations
 
