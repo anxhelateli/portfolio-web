@@ -136,6 +136,7 @@
 
 ![contact](./img/contact.png)
 ![logo](./img/logo.png)
+![FOTOTJ](./img/fototj.png)
 
 ## Design Considerations
 
