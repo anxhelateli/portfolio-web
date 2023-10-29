@@ -126,7 +126,7 @@
 
 ### Screenshots 
 
-![home](./img/home.png)
+
 
 ![aboutme](./img/aboutme.png)
 
