@@ -2,13 +2,20 @@
 <html>
 <head>
 <link rel="stylesheet" href="home.css">
- <script src="home.js"></script>   
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+ </script>
 </head>
 
 <body style="background-color: black;">
     
-      <span style=" color: white; cursor:pointer ;width: 60px;height: 60px;"  onclick="openNav()">&#9776; Menu</span>
-      
+     
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#">About</a>
@@ -16,12 +23,23 @@
         <a href="#">Clients</a>
         <a href="#">Contact</a>
       </div>
+      <span style=" color: white; cursor:pointer ;width: 60px;height: 60px;"  onclick="openNav()">&#9776; Menu</span>
+      
+
     <div class="image-container">
-   <img src="background.jpg" style="text-align: center; margin-top: 20%; width: 100%; height: 400px;; ">
+   <img src="background.jpg" style="text-align: center; margin-top: 20%; width: 100%; height: 400px;">
    <div class="overlay-text" style="color: white;">Creating value by connecting creativity with technology...</div>
     </div>
-    <h1 style="color: white; text-align: center;font-family: 'Times New Roman', Times, serif;"> Who am I?</h1>
-    
+
+    <footer style=" background-color:#12295b;text-align: center;padding: 20px; margin-top:100px; height: 90px;">
+      <div class="social-icons">
+          <a href="https://github.com/anxhelateli" style="margin-right: 10px; color: white;"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/anxhela-teli-2b0178222/" style="margin-right: 10px;color: white;"><i class="fab fa-linkedin"></i></a> 
+          <a href="https://www.instagram.com/https://www.instagram.com/anxhissnapzz/" style="color: white;"><i class="fab fa-instagram"></i></a> 
+          <a href="https://email.com/anxhelateli"><i class="fab fa-email"></i></a>
+      </div>
+      <p style="color: white;">&copy;Anxhela Teli -2023 portfolio</p>
+     </footer>
 
 </body>
 </html>
