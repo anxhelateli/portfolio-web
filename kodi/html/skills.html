@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="skills.css">
+        <script>
+            function openNav() {
+             document.getElementById("mySidenav").style.width = "250px";
+           }
+         
+           function closeNav() {
+             document.getElementById("mySidenav").style.width = "0";
+           }
+          </script>
     </head>
-    <body style="background-color: black;">
+   
+        <body background="background.jpg" >
+            <img class="logo" src="logo.png" alt="Your Logo">
 
-
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="home.html">Home</a>
+                <a href="aboutme.html">About me</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+              </div>
+        <span onclick="openNav()">&#9776; Skills</span>
+        <style>
+            .circle {
+                width: 400px;
+                height: 400px;
+                border-radius: 50%;
+                background-color:white;
+                display: inline-block;
+                margin: 20px; /* Add some space between the circles */
+                text-align: center;
+                color: #fff;
+                font-size: 18px;
+                line-height: 150px;
+                margin-left: 100px;
+            }
+            .logo {
+            position: absolute;
+            top: 10px; /* Adjust the top position as needed */
+            right: 10px; /* Adjust the right position as needed */
+        }
+        </style>
+        
+        <div class="circle">
+            Circle 1
+        </div>
+        <div class="circle">
+            Circle 2
+        </div>
 
 
 

@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
+       <link rel="stylesheet" href="aboutme.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+       <script>
+        function openNav() {
+         document.getElementById("mySidenav").style.width = "250px";
+       }
+     
+       function closeNav() {
+         document.getElementById("mySidenav").style.width = "0";
+       }
+      </script>
 
     </head>
-    <body style="background-color: black;">
-        <style>
-            body{
-                background-image: url(background.jpg);
-                background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-            }
-        </style>
+
+    <body background="background.jpg">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="home.html">Home</a>
+            <a href="aboutme.html">About me</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+          </div>
+    <span onclick="openNav()">&#9776; About Me</span>
 
 <h1 style="color: white; text-align: center; margin-top: 5%;">Who am I?</h1>
-<style>
-    .circle {
-        width: 400px;
-        height: 400px;
-        border-radius: 50%;
-        background-color: #3498db;
-        display: inline-block;
-        margin: 20px; /* Add some space between the circles */
-        text-align: center;
-        color: #fff;
-        font-size: 18px;
-        line-height: 150px;
-    }
-</style>
 
-<div class="circle">
-    Circle 1
-</div>
-<div class="circle">
-    Circle 2
-</div>
 
 
         <footer style=" background-color:#12295b;text-align: center;padding: 20px; margin-top:100px; height: 90px;">

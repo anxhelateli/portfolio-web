@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="home.css">
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
- </script>
+   <link rel="stylesheet" href="home.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+       <script>
+       function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+    
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+     </script>
 </head>
 
-<body style="background-color: black;">
-    
-     
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-      </div>
-      <span style=" color: white; cursor:pointer ;width: 60px;height: 60px;"  onclick="openNav()">&#9776; Menu</span>
+
+    <body background="background.jpg">
+    <img class="logo" src="logo.png" alt="Your Logo">
+
+         <div id="mySidenav" class="sidenav">
+           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <a href="home.html">Home</a>
+           <a href="aboutme.html">About me</a>
+           <a href="skills.html">Skills</a>
+           <a href="projects.html">Projects</a>
+           <a href="contact.html">Contact</a>
+         </div>
+   <span onclick="openNav()">&#9776; Home</span>
       
+   
+      <h1>Anxhela Teli's Portfolio</h1>
+   
+   
+      <div class="image-container">
+      <div class="overlay-text">Creating value by connecting creativity with technology...</div>
+      </div>
 
-    <div class="image-container">
-   <img src="background.jpg" style="text-align: center; margin-top: 20%; width: 100%; height: 400px;">
-   <div class="overlay-text" style="color: white;">Creating value by connecting creativity with technology...</div>
-    </div>
 
-    <footer style=" background-color:#12295b;text-align: center;padding: 20px; margin-top:100px; height: 90px;">
-      <div class="social-icons">
+
+   <footer>
+        <div class="social-icons">
           <a href="https://github.com/anxhelateli" style="margin-right: 10px; color: white;"><i class="fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/anxhela-teli-2b0178222/" style="margin-right: 10px;color: white;"><i class="fab fa-linkedin"></i></a> 
           <a href="https://www.instagram.com/https://www.instagram.com/anxhissnapzz/" style="color: white;"><i class="fab fa-instagram"></i></a> 
           <a href="https://email.com/anxhelateli"><i class="fab fa-email"></i></a>
-      </div>
-      <p style="color: white;">&copy;Anxhela Teli -2023 portfolio</p>
-     </footer>
+        </div>
+
+          <p style="color: white;">&copy;Anxhela Teli -2023 portfolio</p>
+    </footer>
 
 </body>
 </html>

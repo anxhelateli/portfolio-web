@@ -1,11 +1,4 @@
-.background {
-    background-image: url('gigphy.gif');
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-  }
-
-  body {
+body {
     font-family: "Lato", sans-serif;
   }
   .sidenav {
@@ -46,10 +39,16 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
   span{
     color: white; cursor:pointer ;
     width: 200px;
     height: 200px; 
     font-size :35px;
   }
-  
+  body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+   }
