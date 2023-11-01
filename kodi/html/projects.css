@@ -52,3 +52,13 @@ body {
     background-attachment: fixed;
     position: relative;
    }
+
+  h1{
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+ }
+
+ p{
+  color: white;
+ }

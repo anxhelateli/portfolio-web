@@ -12,49 +12,64 @@
            function closeNav() {
              document.getElementById("mySidenav").style.width = "0";
            }
-          </script>
+        </script>
     </head>
-    <body style="background-color: black;">
 
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="home.html">Home</a>
-            <a href="aboutme.html">About me</a>
-            <a href="skills.html">Skills</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-          </div>
+
+    <body background="background.jpg">
+    <img class="logo" src="logo.png" alt="Your Logo">
+
+
+          <div id="mySidenav" class="sidenav">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <a href="home.html">Home</a>
+               <a href="aboutme.html">About me</a>
+               <a href="skills.html">Skills</a>
+               <a href="projects.html">Projects</a>
+               <a href="contact.html">Contact</a>
+           </div>
+
     <span onclick="openNav()">&#9776; Contact</span>
        
 
 
-        <h1 style="color: white; text-align: center;font-family: 'Times New Roman', Times, serif;margin-top: 10%;">Let's keep in touch...</h1>
-        <h3 style="color: white;font-family: 'Times New Roman', Times, serif;">You have a question? Contact me by filling the form.</h3>
-        <form action="mailto:anxhelateli@hotmail.com" method="post" enctype="text/plain">
-            <label for="fname" style="color: white;">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname" style="color: white;">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="email" style="color: white;">Your email:</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="email" style="color: white;">Your message:</label><br>
-            <textarea id="message" name="message" rows="6" cols="30" style="margin-bottom: 5%;">Enter your message here...</textarea>
+        <h1>Let's keep in touch...</h1>
+        <h3>You have a question? Contact me by filling the form.</h3>
+
+             <form action="mailto:anxhelateli@hotmail.com" method="post" enctype="text/plain">
+               <label for="fname">First name:</label><br>
+               <input type="text" id="fname" name="fname"><br>
+               <label for="lname">Last name:</label><br>
+               <input type="text" id="lname" name="lname"><br>
+               <label for="email">Your email:</label><br>
+               <input type="text" id="email" name="email"><br>
+               <label for="email">Your message:</label><br>
+
+            <textarea id="message" name="message" rows="6" cols="30" style="margin-bottom: 5%;">
+                Type here...
+            </textarea>
+
+
             <div class="button-container">
-                <button class="inline-button" style="text-align: left;" ><a href="mailto:anxhelateli@hotmail.com">send message</a></button>
+                <button class="inline-button" style="text-align: left;" >
+                    <a href="mailto:anxhelateli@hotmail.com">Send message</a>
+                </button>
                 
             </div>
       
          
-       <footer style=" background-color:#12295b;text-align: center;padding: 20px; margin-top:100px; height: 90px;">
-        <div class="social-icons">
-            <a href="https://github.com/anxhelateli" style="margin-right: 10px; color: white;"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/anxhela-teli-2b0178222/" style="margin-right: 10px;color: white;"><i class="fab fa-linkedin"></i></a> 
-            <a href="https://www.instagram.com/https://www.instagram.com/anxhissnapzz/" style="color: white;"><i class="fab fa-instagram"></i></a> 
-            <a href="https://email.com/anxhelateli"><i class="fab fa-email"></i></a>
-        </div>
-        <p style="color: white;">&copy;Anxhela Teli -2023 portfolio</p>
+
+       <footer>
+             <div class="social-icons">
+                <a href="https://github.com/anxhelateli"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/anxhela-teli-2b0178222/" style="margin-right: 10px;"><i class="fab fa-linkedin"></i></a> 
+                <a href="https://www.instagram.com/https://www.instagram.com/anxhissnapzz/"><i class="fab fa-instagram"></i></a> 
+                <a href="https://email.com/anxhelateli"><i class="fab fa-email"></i></a>
+             </div>
+
+        <p>&copy;Anxhela Teli -2023 portfolio</p>
        </footer>
        
-<div class="background"> </div>
+
     </body>
 </html>
