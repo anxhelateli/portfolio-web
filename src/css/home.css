@@ -45,8 +45,8 @@
           position: absolute;
           top: 10px; /* Adjust the top position as needed */
           right: 10px; /* Adjust the right position as needed */
-          height: 70px;
-          width: 70px;
+          height: 50px;
+          width: 50px;
           margin-right: 5%;
       }
         h1{
@@ -54,8 +54,9 @@
           text-align: center;
           font-family: 'Times New Roman', Times, serif;
           margin-top: 5%;
+          
         }
-        
+    
         span{
           color: white; cursor:pointer ;
           width: 200px;
@@ -73,9 +74,10 @@
           color: white; 
           font-family: 'Times New Roman', Times, serif;
           font-size: 40px;
-           margin-top: 15%;
+           margin-top: 25%;
            margin-bottom: 18%;
             text-align: center;
+
          }
         
          footer{
@@ -86,3 +88,15 @@
             height: 90px;
          }
       
+         @media screen and (max-height: 78px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+        .logo {
+          position: absolute;
+          top: 10px; /* Adjust the top position as needed */
+          right: 10px; /* Adjust the right position as needed */
+          height: 70px;
+          width: 70px;
+          margin-right: 5%;
+      }
