@@ -135,33 +135,28 @@ color: white;
 
 }
 
-/* Default styles for larger screens */
 
-/* ... Your existing styles ... */
-
-/* Media query for screens smaller than 768px (tablets and smaller) */
 @media screen and (max-width: 768px) {
-  /* Adjust font sizes and padding/margins for smaller screens */
+ 
   body {
-    font-size: 14px; /* Example font size adjustment */
+    font-size: 14px; 
   }
 
   .sidenav {
-    width: 50%; /* Make the side navigation menu full width */
+    width: 50%; 
   }
 
   .sidenav a {
-    padding: 10px 15px; /* Adjust padding for navigation links */
-    font-size: 18px; /* Example font size adjustment */
+    padding: 10px 15px; 
+    font-size: 18px; 
   }
-
   .sports, .app, .camp {
     width: 60%;
-    margin: 20px auto; /* Center the content and provide space between sections */
+    margin: 20px auto; 
     padding: 15px;
     height: 155px; 
     right: 100px;
-   /* Add padding to content sections */
+   
   }
   .sports{
     top: 23%;
@@ -183,18 +178,18 @@ color: white;
   }
 
   .basket, .mbro, .prj {
-    width: 90%; /* Make images fill the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 90%;
+    height: auto;
     margin-bottom: 35%;
     align-items: center;
-    margin-top: 10%; /* Add space between images */
+    margin-top: 10%; 
   }
 }
 
-/* Media query for screens smaller than 480px (cellphones) */
+
 @media screen and (max-width: 480px) {
   .sidenav a {
-    font-size: 16px; /* Further reduce font size for smaller screens */
+    font-size: 16px; 
   }
 
   .sports, .app, .camp {
@@ -203,7 +198,6 @@ color: white;
     height: 110px;
     margin-bottom: 40%; 
 
-     /* Adjust content width for smaller screens */
   }
   .app{
     top: 49%;
@@ -230,14 +224,14 @@ color: white;
   }
   .basket, .mbro, .prj {
     
-    width: 85%; /* Make images fill the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 85%; 
+    height: auto; 
     margin-bottom: 50%;
 
-     /* Add space between images */
+     
   }
 
-  /* Footer styles for smaller screens */
+  
   footer {
     text-align: center;
     padding: 10px;
