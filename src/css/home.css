@@ -45,15 +45,15 @@
           position: absolute;
           top: 10px; /* Adjust the top position as needed */
           right: 10px; /* Adjust the right position as needed */
-          height: 50px;
-          width: 50px;
+          height: 40px;
+          width: 40px;
           margin-right: 5%;
       }
         h1{
           color: white;
           text-align: center;
           font-family: 'Times New Roman', Times, serif;
-          margin-top: 5%;
+          margin-top: 15%;
           
         }
     
@@ -88,7 +88,7 @@
             height: 90px;
          }
       
-         @media screen and (max-height: 78px) {
+         @media screen and (max-height: 780px) {
           .sidenav {padding-top: 15px;}
           .sidenav a {font-size: 18px;}
         }
