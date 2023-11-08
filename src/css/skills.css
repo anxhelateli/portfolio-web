@@ -35,7 +35,7 @@ body {
     margin-left: 50px;
   }
   
-  @media screen and (max-height: 450px) {
+  @media screen and (max-height: 480px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
@@ -198,7 +198,8 @@ footer {
 @media screen and (max-width: 480px) {
     .sidenav {
       width: 150px; 
-      padding-top: 30px;
+      padding-top: 30px;}
+
     .sidenav a {
       font-size: 18px;
     }
@@ -255,4 +256,3 @@ footer {
 }
   
 
-}
