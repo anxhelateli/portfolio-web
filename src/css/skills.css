@@ -141,3 +141,118 @@ h1{
   font-size: 25px;
 
 }
+
+@media screen and (max-width: 768px) {
+  .sidenav {
+    padding-top: 15px;
+    width: 200px; 
+  }
+  .sidenav a {
+    font-size: 20px; 
+  }
+  .sidenav .closebtn {
+    right: 10px; 
+  }
+  .circle {
+    width: 50%; 
+    height: 40vw;
+    margin: 5%; 
+    font-size: 3vw;
+  }
+
+  .tech{
+    top:200px;
+    right:400px;
+  }
+
+  .soft{ 
+    top:580px;
+    right:400px;
+  }
+
+.lista{
+  font-size: 18px;
+  padding: 5px; 
+ right:400px;
+ top:650px;
+}
+.lista2 {
+  font-size: 18px; 
+  padding: 5px; 
+ right:400px;
+ top:280px;
+}
+
+.logo {
+  height: 50px; 
+  width: 50px; 
+  margin-right: 2%; 
+}
+footer {
+  padding: 10px;
+  font-size: 14px; 
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    .sidenav {
+      width: 150px; 
+      padding-top: 30px;
+    .sidenav a {
+      font-size: 18px;
+    }
+    .sidenav .closebtn {
+      right: 5px; 
+    }
+
+ .circle {
+  width: 80%; 
+  height: 70vw; 
+  margin: 5%;
+  font-size: 5vw; 
+ }
+    
+.lista{
+  font-size: 16px; 
+  padding: 5px; 
+  right:100px;
+  top:520px;
+}
+
+.lista2 {
+  font-size: 16px; 
+  padding: 5px; 
+  right:100px;
+  top:200px;
+}
+
+h1 {
+  font-size: 24px; 
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 2%; 
+}
+
+footer {
+  padding: 5px; 
+  font-size: 12px; 
+}
+
+.tech{
+  top:130px;
+  right:88px;
+}
+
+.soft{ 
+  top:450px;
+  right:60px;
+}
+
+}
+  
+
+}
