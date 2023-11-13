@@ -135,8 +135,11 @@
 ![experience](./img/experience.png)
 
 ![contact](./img/contact.png)
+
 ![logo](./img/logo.png)
-![FOTOTJ](./img/fototj.png)
+
+![other](./img/other.png)
+
 
 ## Design Considerations
 
