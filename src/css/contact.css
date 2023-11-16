@@ -5,6 +5,7 @@
     background-attachment: fixed;
     position: relative;
   }
+
   .sidenav {
     height: 100%;
     width: 0;
@@ -70,9 +71,10 @@
     background-color:#12295b;
     text-align: center;
     padding: 20px;
-     margin-top:100px; 
-     height: 90px;
+    margin-top:100px; 
+    height: 90px;
   }
+  
   p{
     color: white;
   }
