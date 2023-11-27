@@ -1,94 +1,130 @@
-  body {
-    font-family: "Lato", sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-  }
+body {
+  font-family: "Lato", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
 
-  .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color:whitesmoke;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-  
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-    color: pink;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  span{
-    color: white; cursor:pointer ;
-    width: 200px;
-    height: 200px; 
-    font-size :35px;
-  }
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:whitesmoke;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
 
-  label{
-    color: white;
-  }
-  
-  h1{
-     color: white;
-     text-align: center;
-     font-family: 'Times New Roman', Times, serif;
-     margin-top: 10%;
-  }
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
 
-  h3{
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-  }
+.sidenav a:hover {
+  color: pink;
+}
 
-  footer{
-    background-color:#12295b;
-    text-align: center;
-    padding: 20px;
-    margin-top:100px; 
-    height: 90px;
-  }
-  
-  p{
-    color: white;
-  }
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 
-  a{
-    margin-right: 10px; 
-    color: white;
-  }
+.fillform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
 
-  .logo {
-    position: absolute;
-    top: 10px; 
-    right: 10px; 
-    height: 70px;
-    width: 70px;
-    margin-right: 5%;
+.fillform label {
+  font-weight: bold;
+  margin-top: 20px;
+  color: white; 
+}
+
+.fillform input[type="text"], .fillform textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.fillform .button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.fillform input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span{
+  color: white; cursor:pointer ;
+  width: 200px;
+  height: 200px; 
+  font-size :35px;
+}
+
+label{
+  color: white;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10%;
+}
+
+h3{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+  background-color:#12295b;
+  text-align: center;
+  padding: 20px;
+  margin-top:100px; 
+  height: 90px;
+}
+
+p{
+  color: white;
+}
+
+a{
+  margin-right: 10px; 
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  height: 70px;
+  width: 70px;
+  margin-right: 5%;
 }

@@ -45,6 +45,14 @@
           margin-left: 50px;
         }
         
+        .image-container {
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+
         @media screen and (max-height: 450px) {
           .sidenav {padding-top: 15px;}
           .sidenav a {font-size: 18px;}
