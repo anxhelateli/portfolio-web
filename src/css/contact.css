@@ -75,6 +75,43 @@ body {
   cursor: pointer;
 }
 
+.row{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  margin: 10px;
+  padding: 10px;
+}
+
+.header{
+   display: flex;
+  align-items: center;
+  background-color: pink;
+  justify-content: center;
+   margin: 10px;
+  padding: 10px;
+}
+
+.text{ 
+  display: flex;
+  align-items: center;
+  background-color:green;
+  justify-content: center;
+   margin: 10px;
+  padding: 10px;
+}
+
+.paragraph{
+    display: flex;
+    background-color: blue;
+    align-content: center;
+    width: 47%;
+    margin: 10px;
+    padding: 10px;  
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
