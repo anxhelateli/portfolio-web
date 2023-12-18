@@ -5,15 +5,21 @@
    <link rel="stylesheet" href="../src/css/home.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
-       <script>
-       function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
+      <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      if (window.innerWidth >= 768) {
+        document.body.style.marginLeft = "250px";
       }
-    
-      function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      if (window.innerWidth >= 768) {
+        document.body.style.marginLeft = "0";
       }
-     </script>
+    }
+  </script>
 </head>
 
 

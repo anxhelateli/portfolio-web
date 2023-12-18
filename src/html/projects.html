@@ -8,14 +8,20 @@
     />
     <link rel="stylesheet" href="../css/projects.css" />
     <script>
-      function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      if (window.innerWidth >= 768) {
+        document.body.style.marginLeft = "250px";
       }
+    }
 
-      function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      if (window.innerWidth >= 768) {
+        document.body.style.marginLeft = "0";
       }
-    </script>
+    }
+  </script>
   </head>
 
   <body background="../assets/background.jpg">

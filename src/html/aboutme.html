@@ -5,15 +5,21 @@
        <link rel="stylesheet" href="../css/aboutme.css">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-       <script>
-        function openNav() {
-         document.getElementById("mySidenav").style.width = "250px";
-       }
-     
-       function closeNav() {
-         document.getElementById("mySidenav").style.width = "0";
-       }
-      </script>
+     <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      if (window.innerWidth >= 768) {
+        document.body.style.marginLeft = "250px";
+      }
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      if (window.innerWidth >= 768) {
+        document.body.style.marginLeft = "0";
+      }
+    }
+  </script>
 
     </head>
 
@@ -29,35 +35,51 @@
           </div>
     <span onclick="openNav()">&#9776; About Me</span>
 
-<div class="page-container">
-<div class="page-title">
+
+ <div class="header">
    <h1 style="color: white; text-align: center; margin-top: 5%;">Who am I?</h1>
   </div>
-
-  <div class="image-container">
-   <img src="../assets/anxhi.jpg">
-  </div>
-
-  <div class="self-description"> 
-    <p>Hello. My name is Anxhela Teli. 
-      I am a 20 year old young adult born and raised in the capital city of Albania.Currently my main responsabilities
-      have been successfully completing and obtaining my bachelor's degree while truing to gain as much knowledge and experience
-      to make me feel ready to jump in the market.
-    </p>
-  </div>
+<div class="row">
+  <div class="project">
+     <div class="paragraph"> 
+      <p>Hello. My name is Anxhela Teli. 
+         I am a 20 year old young adult born and raised in the capital city of Albania.Currently my main responsabilities
+         have been successfully completing and obtaining my bachelor's degree while truing to gain as much knowledge and experience
+         to make me feel ready to jump in the market.
+      </p>
+    </div>
       
-  <div class="page-header">  
-    <p>A few fun facts about me:</p>
-  </div> 
+      <img class="image" src="../assets/anxhi.jpg">
+
+ </div>
+  
+
+  
+ <div class="list">
+    <div class="header">  
+     <p>A few fun facts about me:</p>
+    </div> 
 
    <div class="experience">
-      <p class="lead">I have gotten my first leadership role at the age of 14 where I became a leader of a local NGO.</p>
-      <p class="robotics">I have had my very own Robotics club called "WiSci club" aka Women in Science Club.</p>
-      <p class="art">I am a very talented painter and sculptor.</p>
-   </div>
+    <div class="project1">
+      <p>
+        I have gotten my first leadership role at the age of 14 where I became a leader of a local NGO.
+      </p>
+    </div>
+      
+    <div class="project1">
+       <p>
+        I have had my very own Robotics club called "WiSci club" aka Women in Science Club.
+      </p>
+    </div>
      
-
-        <footer>
+    <div class="project1">
+      <p>
+        I am a very talented painter and sculptor.
+      </p>
+    </div>
+      </div>
+          <footer>
             <div class="social-icons">
                 <a href="https://github.com/anxhelateli" style="margin-right: 10px; color: white;"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/anxhela-teli-2b0178222/" style="margin-right: 10px;color: white;"><i class="fab fa-linkedin"></i></a> 
@@ -65,9 +87,11 @@
                 <a href="https://email.com/anxhelateli"><i class="fab fa-email"></i></a>
             </div>
             <p style="color: white;">&copy;Anxhela Teli - 2023 portfolio</p>
-           </footer>
- </div>
-    </body>
+          </footer>
+        
+      </div>
+</div>
+</body>
 </html>
 
   

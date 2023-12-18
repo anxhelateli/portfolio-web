@@ -31,12 +31,131 @@
   font-size: 36px;
   margin-left: 50px;
 }
+  
+.row {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  margin: 10px;
+  padding: 10px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  background-color: pink;
+  justify-content: center;
+   margin: 10px;
+  padding: 10px;
+}
 
+.paragraph{  
+  display: flex;
+   width: 98%;
+  padding: 10px;
+  margin: 10px;
+  background-color: green;
+}
+
+.text{
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  top: 200px;
+  text-wrap:wrap;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color:white;
+  display: inline-block;
+  margin: 50px; 
+  text-align: center;
+  color: #fff;
+  line-height: 150px;
+   margin-left: 100px;
+  font-size: 20px;
+}
+li {
+  margin: 0;
+  padding: 0;
+  line-height: 1; 
+  color: black;
+  background-color: pink;
+}
+
+.list{
+  
+  flex-direction:row;
+  padding: 10px;
+  margin: 10px;
+  align-content: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color:white;
+  display: inline-block;
+  margin: 50px; 
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  line-height: 150px;
+  margin-left: 100px;
+  margin-right:100px;
+}
+
+.circle{
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   margin: 10px;
+   background-color:green;
+}
+
+ 
+
+ footer{
+background-color:#12295b;
+text-align: center;
+padding: 20px;
+ margin-top:100px;
+  height: 90px;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+ }
+ .logo {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  height: 70px;
+  width: 70px;
+  margin-right: 5%;
+}
+
+p{
+color: white;
+}
+
+h1{
+text-align: center;
+color: white;
+margin-bottom: 5%;
+}
+span{
+  color: white; cursor:pointer ;
+  width: 200px;
+  height: 200px; 
+  font-size :35px;
+}
 
 @media screen and (max-height: 480px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
 
 span{
   color: white; cursor:pointer ;
@@ -95,6 +214,7 @@ margin-bottom: 5%;
 
 .soft{
 position: absolute;
+display: flex;
 top:220px;
 right: 790px;
 width: 200px;
@@ -139,6 +259,10 @@ margin-bottom: 20%;
 font-size: 25px;
 
 }
+}
+ 
+
+
 
 @media screen and (max-width: 768px) {
   body {

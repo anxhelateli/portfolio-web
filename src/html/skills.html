@@ -5,15 +5,21 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="stylesheet" href="../css/skills.css">
 
-        <script>
-            function openNav() {
-             document.getElementById("mySidenav").style.width = "250px";
-           }
-         
-           function closeNav() {
-             document.getElementById("mySidenav").style.width = "0";
-           }
-          </script>
+       <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      if (window.innerWidth >= 768) {
+        document.body.style.marginLeft = "250px";
+      }
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      if (window.innerWidth >= 768) {
+        document.body.style.marginLeft = "0";
+      }
+    }
+  </script>
     </head>
    
         <body background="../assets/background.jpg" >
@@ -29,38 +35,40 @@
               </div>
 
             <span onclick="openNav()">&#9776; Skills</span>
-
-        <h1>Let's see a few of my skills</h1>
-        <div class="circle">Circle 1 </div>
-        <div class="circle">Circle 2 </div>
-
-        <div class="soft">
-            <p style="color: black;">Soft Skills</p>
-        </div>
-
-          <div class="lista">
-            <ul>
-                <li>Communication skills</li>
-                <li>Leadership skills</li>
-                <li>Teamworking skills</li>
-                <li>Critical thinking skills</li>
-             </ul>
+            
+  <div class="row">
+          <div class="header">
+            <h1>Let's see a few of my skills</h1>
           </div>
 
-        <div class="tech">
-            <p style="color: black;">Technical Skills</p>
-        </div>
-
-          <div class="lista2">
-            <ul>
-                <li>C and C++</li>
-                <li>Java </li>
-                <li>Algorithms</li>
-                <li>Databases</li>
-                <li>Html/Css/JS</li>
-                <li>React/React Native</li>
-             </ul>
+        <div class="paragraph"> 
+          <div class="circle">
+             <div class="text">
+               <p style="color: black;">Soft Skills</p>
+                 <ul>
+                   <li>Communication skills</li>
+                   <li>Leadership skills</li>
+                   <li>Teamworking skills</li>
+                   <li>Critical thinking skills</li>
+                 </ul>
+             </div>
           </div>
+
+          <div class="circle">
+             <div class="list">
+               <p style="color: black;">Technical Skills</p>
+                 <ul>
+                   <li>C and C++</li>
+                   <li>Java </li>
+                   <li>Algorithms</li>
+                   <li>Databases</li>
+                   <li>Html/Css/JS</li>
+                   <li>React/React Native</li>
+                 </ul>
+              </div>
+            </div>
+        </div>
+    </div>
 
         <footer >
             <div class="social-icons">
@@ -72,5 +80,5 @@
             <p>&copy;Anxhela Teli - 2023 portfolio</p>
            </footer>
         
-    </body>
+</body>
 </html>
